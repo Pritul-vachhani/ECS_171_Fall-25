@@ -1,0 +1,35 @@
+# ---- Python / Jupyter ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Environments ----
+venv/
+.tox/
+.env/
+*.env
+.venv/
+conda-meta/
+*.egg-info/
+
+# ---- Data ----
+data/raw/*
+!data/raw/.gitkeep  # keep folder structure but ignore actual data
+data/processed/*
+!data/processed/.gitkeep
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Logs / Outputs ----
+logs/
+*.log
+outputs/
+reports/figures/
+
+# ---- Misc ----
+*.zip
+*.tar.gz
